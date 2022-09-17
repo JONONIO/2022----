@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jun 16 11:15:19 2022
+# Process ID: 32764
+# Current directory: F:/VivadoProj/USR_IP/FsMometer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28108 F:\VivadoProj\USR_IP\FsMometer\edit_Fsmoniter_v1_0.xpr
+# Log file: F:/VivadoProj/USR_IP/FsMometer/vivado.log
+# Journal file: F:/VivadoProj/USR_IP/FsMometer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VivadoProj/USR_IP/FsMometer/edit_Fsmoniter_v1_0.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file F:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/component.xml
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0
+ipx::merge_project_changes files [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun 15 19:41:50 2022
+# Process ID: 23848
+# Current directory: F:/VivadoProj/USR_IP/DDS902
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3572 F:\VivadoProj\USR_IP\DDS902\edit_DDS902_v1_0.xpr
+# Log file: F:/VivadoProj/USR_IP/DDS902/vivado.log
+# Journal file: F:/VivadoProj/USR_IP/DDS902\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VivadoProj/USR_IP/DDS902/edit_DDS902_v1_0.xpr
+update_compile_order -fileset sources_1

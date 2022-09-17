@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jun 17 22:05:39 2022
+# Process ID: 3956
+# Current directory: F:/VivadoProj/HardWareProj/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7512 F:\VivadoProj\HardWareProj\ip_repo\edit_AD9235_v1_0.xpr
+# Log file: F:/VivadoProj/HardWareProj/ip_repo/vivado.log
+# Journal file: F:/VivadoProj/HardWareProj/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VivadoProj/HardWareProj/ip_repo/edit_AD9235_v1_0.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file F:/VivadoProj/HardWareProj/ip_repo/AD9235_1.0/component.xml
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::remove_bus_interface Data_clk [ipx::current_core]
+ipx::remove_bus_interface Ad9235_clk [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/VivadoProj/HardWareProj/ip_repo/AD9235_1.0

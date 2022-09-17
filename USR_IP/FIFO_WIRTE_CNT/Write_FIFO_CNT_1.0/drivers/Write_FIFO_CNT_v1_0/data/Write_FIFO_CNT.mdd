@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER Write_FIFO_CNT
+	OPTION supported_peripherals = (Write_FIFO_CNT);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = Write_FIFO_CNT;
+END DRIVER

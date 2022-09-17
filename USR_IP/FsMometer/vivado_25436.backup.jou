@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun 15 16:48:01 2022
+# Process ID: 25436
+# Current directory: F:/VivadoProj/USR_IP/FsMometer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19088 F:\VivadoProj\USR_IP\FsMometer\edit_Fsmoniter_v1_0.xpr
+# Log file: F:/VivadoProj/USR_IP/FsMometer/vivado.log
+# Journal file: F:/VivadoProj/USR_IP/FsMometer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VivadoProj/USR_IP/FsMometer/edit_Fsmoniter_v1_0.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jun 16 10:28:38 2022
+# Process ID: 11300
+# Current directory: F:/VivadoProj/USR_IP/FsMometer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8800 F:\VivadoProj\USR_IP\FsMometer\edit_Fsmoniter_v1_0.xpr
+# Log file: F:/VivadoProj/USR_IP/FsMometer/vivado.log
+# Journal file: F:/VivadoProj/USR_IP/FsMometer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VivadoProj/USR_IP/FsMometer/edit_Fsmoniter_v1_0.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/hdl/Fsmoniter_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/hdl/Fsmoniter_v1_0.v:]
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'F:/VivadoProj/IP/Fsmeasurement_1.0'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'F:/VivadoProj/2022HardWareProj/ip_repo/my_calc_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/VivadoProj/USR_IP/FsMometer/FsMometer_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'f:/VivadoProj/IP/Fsmeasurement_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'f:/VivadoProj/2022HardWareProj/ip_repo/my_calc_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 767.652 ; gain = 139.930
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file F:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/component.xml
+WARNING: [IP_Flow 19-5226] Project source file 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/hdl/Fsmoniter_v1_0_S00_AXI.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/src/Falling2En.sv' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/src/cymometer.sv' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/hdl/Fsmoniter_v1_0.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/hdl/Fsmoniter_v1_0_S00_AXI.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/src/Falling2En.sv' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/src/cymometer.sv' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/hdl/Fsmoniter_v1_0.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-5169] Module 'Fsmoniter_v1_0' uses SystemVerilog sources with a Verilog top file. These SystemVerilog files will not be analysed by the packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 16 10:54:48 2022...

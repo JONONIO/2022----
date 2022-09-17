@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun 15 19:41:50 2022
+# Process ID: 23848
+# Current directory: F:/VivadoProj/USR_IP/DDS902
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3572 F:\VivadoProj\USR_IP\DDS902\edit_DDS902_v1_0.xpr
+# Log file: F:/VivadoProj/USR_IP/DDS902/vivado.log
+# Journal file: F:/VivadoProj/USR_IP/DDS902\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/VivadoProj/USR_IP/DDS902/edit_DDS902_v1_0.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoProj/USR_IP/DDS902/DDS902_1.0/hdl/DDS902_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [F:/VivadoProj/USR_IP/DDS902/DDS902_1.0/hdl/DDS902_v1_0.v:]
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/VivadoProj/USR_IP/DDS902/DDS902_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/VivadoProj/2022HardWareProj/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/VivadoProj/USR_IP/FsMometer/Fsmoniter_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 768.551 ; gain = 130.438
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 15 20:14:36 2022...
